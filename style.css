@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color:lightgoldenrodyellow;
+    font-family:initial;
+    display: flex;
+    flex-direction: column;
+}
+header h1 {
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+nav {
+    background-color: #d2b48c;
+    display:flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li  { 
+    margin: 0;
+}
+
+nav ul li a {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 10px ;
+    gap: 20px;
+}
+.my-section {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    min-height: 20px;
+    gap: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+
+
+}
+h2 {
+    color: #a52;
+}
+.featured-proverbs {
+    display: grid;
+    grid-template-columns:250px 250px;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.proverb-card {
+    background-color: #d2b48c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition:transform 0.3s ease;
+}
+.proverb-card:hover {
+    background-color: aqua;
+    transition: color 0.5s ease;
+    
+}
+.title {
+    text-align:left;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    border-bottom: 2px solid blanchedalmond;
+    padding-bottom: 8px;
+
+}
+.Proverb-Gallary {
+    display: grid;
+    grid-template-columns: 250px;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2px;
+    padding:0 20px;
+    padding-bottom: 20px;
+}
+.proverb {
+    background-color: #fffdd0;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 2px 6px rgba(255, 182, 193, 0.4);
+    transition:transform 0.3s ease;
+
+
+}
+.sub-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 8px;
+
+}
+img {
+    display: flex;
+    gap: 10px;
+    border-radius: 100px;
+    border: 8px solid black;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 8px;
+}
+.form-section {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+input [type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    justify-content: center;
+    background-color: #a52;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #453456;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: left;
+    color: black;
+    padding: 20px;
+    margin-left: 20px;
+}
+about h4 {
+    color: red;
+    transition: color 0.5s ease;
+
+}
+h4:hover {
+    color: red;
+}
+footer {
+    display: flex;
+    gap: 3rem;
+    padding: 10px;
+    background-color:brown;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
